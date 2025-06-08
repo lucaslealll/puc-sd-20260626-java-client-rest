@@ -8,10 +8,10 @@ public class Main {
     public static void main(String[] args) {
         
         // Cria uma instância da classe GeoDBClientApp,
-        // que provavelmente é responsável por interagir com o serviço GeoDB
+        // que é responsável por interagir com o serviço GeoDB
         GeoDBClientApp geodb_client = new GeoDBClientApp();
         
-        // Executa uma busca por cidades com o nome "New York"
+        // Executa uma busca por cidades com o nome
         // Este é um exemplo de chamada de função para testar a aplicação
         geodb_client.searchCities("São José do Vale do Rio Preto");
     }
